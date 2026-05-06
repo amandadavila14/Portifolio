@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #111827 0%, #1f2937 100%);
+  color: #e5e7eb;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  border-bottom: 1px solid #2b3648;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+header p {
+  margin: 10px 0 25px;
+  color: #cbd5e1;
+}
+
+/* BOTÃO */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25);
+}
+
+.btn:hover {
+  background: #60a5fa;
+  transform: translateY(-3px);
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  max-width: 850px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+/* PROJETOS */
+.project {
+  background: rgba(31, 41, 55, 0.8);
+  padding: 22px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  border: 1px solid #2b3648;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.project p {
+  color: #cbd5e1;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  padding: 14px 22px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+}
+
+.whatsapp:hover {
+  transform: translateY(-3px);
+  background: #1ebe5d;
+}
+
+.whatsapp img {
+  width: 20px;
+  height: 20px;
+}
+
+/* EMAIL */
+section p {
+  text-align: center;
+  color: #94a3b8;
+}
